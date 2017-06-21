@@ -1,0 +1,4 @@
+AuthName "Area Protetta"
+AuthType Basic
+AuthUserFile /var/www/html/.htpasswd
+Require valid-user

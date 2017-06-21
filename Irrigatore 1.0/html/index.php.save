@@ -1,0 +1,32 @@
+<html>
+	<head>
+
+	</head>
+	<body background="red">
+
+	<!--GPIO17-->
+	<form action="" method="post">
+	<p style="font-size:100px;text-align:fixed;">POMPA</p>
+	<input type="submit" name="ACCENSIONE" value="ACCENSIONE" style="font-size:50px;background:#80dfff"onClick="a >
+	 <input type="submit" name="SPEGNIMENTO" value="SPEGNIMENTO" style="font-size:50px;background:#80dfff"onClick="alert('Premi per fermare')">
+
+	</form>
+	</body>
+
+</html>
+
+<?php
+
+// Function PHP del pin GPIO17
+
+	if ($_POST[ACCENSIONE]) {
+	 $a- exec("sudo sh /var/www/html/rele/gpio/17/avvio");
+	echo "ULTIMA ATTIVITÀ (accensione)";
+	}
+
+	if ($_POST[SPEGNIMENTO]) {
+	 $a- exec("sudo sh /var/www/html/rele/gpio/17/spegni");
+	 echo "ULTIMA ATTIVITÀ (spegnimento)";
+	}
+
+?>
