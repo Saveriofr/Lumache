@@ -1,0 +1,234 @@
+body, html {
+  height:100%;
+  margin: 0;
+  font-size: 16;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+
+}
+
+.pimg1, .pimg2, .pimg3{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+/*
+ fixed = parallax
+ scroll = normal
+*/
+}
+
+.lumaca{
+width:100%;
+}
+
+.container{
+margin:auto;
+}
+
+/* common classes */
+
+.primary-text{
+    color: #56a79a;
+}
+
+.primary-background{
+    color: #56a79a;
+    
+}
+
+/* header */
+
+#main-header{
+    position: fixed;
+    background: #fff;
+    z-index: 999;
+    opacity: 0.8;
+    width%: 100%;
+    border-right-width: 100px; border-left-width: 0px; padding-left: 100px; padding-right: 120px;
+}
+
+
+/*navbar*/
+
+#navbar{
+    text-transform: uppercase;
+}
+
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar li.current a, #navbar a:hover{
+    color: #56a79a;
+    border-bottom: 3px solid #56a79a;
+    padding-bottom: 3px;
+}
+
+/*showcase*/
+
+{
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+    
+}
+
+#showcase .row{
+    height: 600px;
+}
+
+#showcase h1{
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#showcase p{
+    color: #ccc;
+    margin: 0;
+}
+
+#showcase .showcase-content{
+    background: #333;
+    color: #fff;
+    border-radius: 80px;
+    padding: 15px;
+    opacity:0.7;
+}
+
+/* features */
+#features{
+    background-color: #fff;
+}
+
+#features h2{
+    font-size: 25px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#features p{
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#features .fa{
+    font-size: 20px;
+    color: #56a79a;
+}
+
+#features img{
+    font-size: 60%;
+}
+
+
+.pimg1{
+  background-image: url('../images/luma.jpeg');
+  min-height: 100%;
+
+}
+.pimg2{
+  background-image: url('../images/luma3.jpeg');
+  min-height: 100%;
+
+}
+.pimg3{
+  background-image: url('../images/luma4.jpg');
+  min-height: 100%;
+
+}
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light{
+  background-color: white;
+  color: #666;
+}
+
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.section-bottom{
+    background-color: #282e34;
+    color: #ddd;
+    opacity: 0.8;
+}
+
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+/*
+.ptext .border{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+
+}
+
+.ptext .border.trans{
+  background-color: transparent;
+}
+
+/* company */
+#company{
+    background-color: #282e34;
+    opacity: 0.8;
+    color: #ddd;
+    padding: 10px 0;
+}
+
+#company h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#company ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+#company input[type="text"]{
+    padding: 7px;
+}
+
+#company button{
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+}
+
+/*footer */
+#main-footer{
+    background: #56a79a;
+    color: #fff;
+}
